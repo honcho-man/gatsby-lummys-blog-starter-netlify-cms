@@ -48,13 +48,15 @@ const Navbar = class extends React.Component {
             img src = { logo }
             alt = "Kaldi"
             style = {
-                { width: '88px' } }
-            /> <
-            /Link> { /* Hamburger menu */ } <
+                { width: '100px' }
+            }
+            /> < /
+            Link > { /* Hamburger menu */ } <
             div className = { `navbar-burger burger ${this.state.navBarActiveClass}` }
             data - target = "navMenu"
             onClick = {
-                () => this.toggleHamburger() } >
+                () => this.toggleHamburger()
+            } >
             <
             span / >
             <
@@ -62,8 +64,8 @@ const Navbar = class extends React.Component {
             <
             span / >
             <
-            /div> <
-            /div> <
+            /div> < /
+            div > <
             div id = "navMenu"
             className = { `navbar-menu ${this.state.navBarActiveClass}` } >
             <
@@ -87,9 +89,9 @@ const Navbar = class extends React.Component {
             /Link> <
             Link className = "navbar-item"
             to = "/contact/examples" >
-            Form Examples <
-            /Link> <
-            /div> <
+            <
+            /Link> < /
+            div > <
             div className = "navbar-end has-text-centered" >
             <
             a className = "navbar-item"
@@ -102,12 +104,12 @@ const Navbar = class extends React.Component {
             img src = { github }
             alt = "Github" / >
             <
-            /span> <
-            /a> <
-            /div> <
-            /div> <
-            /div> <
-            /nav>
+            /span> < /
+            a > <
+            /div> < /
+            div > <
+            /div> < /
+            nav >
         )
     }
 }
